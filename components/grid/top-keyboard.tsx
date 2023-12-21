@@ -15,7 +15,7 @@ async function TopKeyboards() {
   const [firstProduct, secondProduct, thirdProduct] = homepageItems;
 
   return (
-    <section className="mx-auto max-w-screen-2xl py-24">
+    <section className="mx-auto bg-gray-100 py-24">
       <div className="container mx-auto px-4">
         <h1 className="mb-8 mt-4 text-3xl font-light">Top Selling Keyboards</h1>
       </div>

@@ -2,6 +2,7 @@ import { Suspense } from 'react';
 
 // components
 import BenefitsList from 'components/ads/benefits-list';
+import CTA from 'components/ads/call-to-action';
 import { Carousel } from 'components/carousel';
 import ItemGrid from 'components/grid/item-grid';
 import TopKeyboards from 'components/grid/top-keyboard';
@@ -29,6 +30,7 @@ export default async function HomePage() {
         <TopKeyboards />
         <ItemGrid />
         <Carousel />
+        <CTA />
         <Suspense>
           <Footer />
         </Suspense>

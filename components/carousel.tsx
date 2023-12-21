@@ -12,7 +12,7 @@ export async function Carousel() {
   const carouselProducts = [...products, ...products, ...products];
 
   return (
-    <div className=" w-full overflow-x-auto py-24 ">
+    <div className=" w-full overflow-x-auto bg-gray-100 py-24">
       <div className="container mx-auto px-4">
         <h1 className="mb-8 mt-4 text-3xl font-light">You May Also Like</h1>
       </div>

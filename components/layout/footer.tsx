@@ -15,7 +15,7 @@ export default async function Footer() {
   const menu = await getMenu('next-js-frontend-footer-menu');
 
   return (
-    <footer className="text-sm text-neutral-500 ">
+    <footer className="border-t-2 bg-gray-100 text-sm text-neutral-500">
       <div className="mx-auto flex w-full max-w-7xl flex-col gap-6  border-neutral-200 px-6 py-12 text-sm  md:flex-row md:gap-12 md:px-4 min-[1320px]:px-0">
         {/* footer menu from shopify */}
         <Suspense
